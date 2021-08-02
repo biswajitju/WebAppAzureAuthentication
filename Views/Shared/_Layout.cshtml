@@ -25,6 +25,12 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
             </div>
+            <div class="navbar-left">
+                @if (Request.IsAuthenticated)
+                {
+                    <h4>@HttpContext.Current.Session["Username"].ToString()</h4>
+                }
+            </div>
         </div>
     </div>
     <div class="container body-content">
