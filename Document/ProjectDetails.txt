@@ -1,0 +1,28 @@
+1. Create ASP.NET MVC Web App
+2. Install folollowing package through Nuget 
+--> Microsoft.IdentityModel.Protocols.OpenIdConnect
+--> Microsoft.Owin.Security.OpenIdConnect
+-->Owin
+-->Microsoft.Owin.Security
+-->Microsoft.Owin.Security.Oauth
+-->Microsoft.Owin.Security.Cookies
+-->Microsoft.Owin.Host.SystemWeb
+-->Nlog for logger
+
+3. Create Starup.Auth.cs clas in App_Start folder
+4 Create Starup.cs class 
+
+Make sure before Azure authentication below configuration details should be in place
+ClientId
+TenantId
+
+for this you need to create a web app Service in Azure Portal.
+
+
+
+We implemented in the solution
+Auth2.0 
+v2.0
+
+
+
